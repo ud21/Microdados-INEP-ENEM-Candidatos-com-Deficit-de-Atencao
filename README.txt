@@ -6,14 +6,14 @@ _2016_:http://download.inep.gov.br/microdados/microdados_enem2016.zip
 _2017_:http://download.inep.gov.br/microdados/microdados_enem2017.zip
 _2018_:http://download.inep.gov.br/microdados/microdados_enem2018.zip
 
-PS: todas as an·lises feitas na vers„o. Verifique se o mesmo est· configurado no PATH: Control Panel\System and Security\System
+PS: todas as an√°lises feitas na vers√£o. Verifique se o mesmo est√° configurado no PATH: Control Panel\System and Security\System
 
-<h2>ConfiguraÁıes PrÈvias do Python 3.8</h2>
+<h2>Configura√ß√µes Pr√©vias do Python 3.8</h2>
 <img src="https://user-images.githubusercontent.com/56441375/69769042-dddd7700-1161-11ea-8015-1ea16e932516.PNG"height="350" widht ="350">
 
 
 <h3>Instalando as bibliotecas</h3> 
-Iniciar + R: Abrir· uma tela de busca. Buscar por 'cmd' que o Prompt de Comando abrir·. 
+Iniciar + R: Abrir√° uma tela de busca. Buscar por 'cmd' que o Prompt de Comando abrir√°. 
 
 Foram utilizadas as bibliotecas: 
 <ul>
@@ -25,7 +25,7 @@ Foram utilizadas as bibliotecas:
 
 PS: digite ```jupyter notebook``` no prompt de comando para abrir o jupyter e crie um novo arquivo em ipynb 
 
-<h3>ImportaÁ„o das bibliotecas no Jupyter</h3>
+<h3>Importa√ß√£o das bibliotecas no Jupyter</h3>
 
 ```
 import pandas as pd
@@ -35,15 +35,15 @@ import numpy as np
 low_memory = False
 ``` 
 
-Permite que n„o haja problemas referente a falta de memÛria do computador
+Permite que n√£o haja problemas referente a falta de mem√≥ria do computador
 
 
 Essa mesma leitura foi feita para os microdados do enem dos anos de 2015, 2016, 2017 e 2018. 
 
 
-<h2>An·lise dos Alunos que fizeram Enem nos anos de 2014 a 2018:</h2> 
+<h2>An√°lise dos Alunos que fizeram Enem nos anos de 2014 a 2018:</h2> 
 
-<h3> Quantidade de Alunos com DÈfict de AtenÁ„o que fizeram o Enem em seus respectivos anos:</h3>
+<h3> Quantidade de Alunos com D√©fict de Aten√ß√£o que fizeram o Enem em seus respectivos anos:</h3>
 <ul>
   <li>2014: 4792 alunos </li>
   <li>2015: 3848 alunos </li>
@@ -52,7 +52,7 @@ Essa mesma leitura foi feita para os microdados do enem dos anos de 2015, 2016, 
   <li>2018: 7199 alunos </li>
 </ul>
 
-<h3> Quantidade de Alunos sem DÈfict de AtenÁ„o que fizeram o Enem em seus respectivos anos:</h3>
+<h3> Quantidade de Alunos sem D√©fict de Aten√ß√£o que fizeram o Enem em seus respectivos anos:</h3>
 
 <ul>
   <li>2014: 8.717.456 alunos </li>
@@ -62,7 +62,7 @@ Essa mesma leitura foi feita para os microdados do enem dos anos de 2015, 2016, 
   <li>2018: 5.506.548 alunos </li>
 </ul>
 
-<h3> MÈdia das notas da REDA«√O do Enem de Alunos com DÈfict de AtenÁ„o em seus respectivos anos:</h3>
+<h3> M√©dia das notas da REDA√á√ÉO do Enem de Alunos com D√©fict de Aten√ß√£o em seus respectivos anos:</h3>
 <ul>
   <li>2014: 597.4</li>
   <li>2015: 668.9846590909091</li>
@@ -71,7 +71,7 @@ Essa mesma leitura foi feita para os microdados do enem dos anos de 2015, 2016, 
   <li>2018: 671.902343109946</li>
 </ul>
 
-<h3> MÈdia das notas da REDA«√O do Enem de Alunos sem DÈfict de AtenÁ„o em seus respectivos anos:</h3>
+<h3> M√©dia das notas da REDA√á√ÉO do Enem de Alunos sem D√©fict de Aten√ß√£o em seus respectivos anos:</h3>
 
 <ul>
   <li>2014: 581.3305709023941 </li>
@@ -81,18 +81,18 @@ Essa mesma leitura foi feita para os microdados do enem dos anos de 2015, 2016, 
   <li>2018: 522.5685460989124</li>
 </ul>
 
-<h2> An·lise visual </h3>
+<h2> An√°lise visual </h3>
 
-<h3> Quantidade de Candidatos do Enem com DÈfict de AtenÁ„o por ano:</h3> 
+<h3> Quantidade de Candidatos do Enem com D√©fict de Aten√ß√£o por ano:</h3> 
 
 <img src= "https://user-images.githubusercontent.com/56441375/69923145-4342a800-1481-11ea-997f-1567ed4978d4.png" height="400" widht ="400">
 
-<h3> Quantidade de Candidatos do Enem sem DÈfict de AtenÁ„o por ano:</h3> 
+<h3> Quantidade de Candidatos do Enem sem D√©fict de Aten√ß√£o por ano:</h3> 
 
 <img src= "https://user-images.githubusercontent.com/56441375/69923154-50f82d80-1481-11ea-9c4e-c81bcb4c3869.png" height="400" widht ="400">
 
-<h3> MÈdia das notas do Enem:</h3>
+<h3> M√©dia das notas do Enem:</h3>
 <img src= "https://user-images.githubusercontent.com/56441375/69923155-52c1f100-1481-11ea-9994-c43616c6ba61.png" height="400" widht ="400">
 
-<h2>ConsideraÁıes Finais</h2> 
-A MÈdia das Notas de RedaÁ„o dos Alunos com DÈfict de AtenÁ„o dos anos de 2014 a 2018 s„o maiores do que os alunos sem. 
+<h2>Considera√ß√µes Finais</h2> 
+A M√©dia das Notas de Reda√ß√£o dos Alunos com D√©fict de Aten√ß√£o dos anos de 2014 a 2018 s√£o maiores do que os alunos sem. 
