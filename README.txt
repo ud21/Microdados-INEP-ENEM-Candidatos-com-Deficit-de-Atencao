@@ -85,7 +85,7 @@ Essa mesma leitura foi feita para os microdados do enem dos anos de 2015, 2016, 
 
 <h3> Quantidade de Candidatos do Enem com Défict de Atenção por ano:</h3> 
 
-<img src= "https://user-images.githubusercontent.com/56441375/69923145-4342a800-1481-11ea-997f-1567ed4978d4.png" height="400" widht ="400">
+<img src="https://user-images.githubusercontent.com/56441375/69923145-4342a800-1481-11ea-997f-1567ed4978d4.png" height="400" widht ="400">
 
 <h3> Quantidade de Candidatos do Enem sem Défict de Atenção por ano:</h3> 
 
